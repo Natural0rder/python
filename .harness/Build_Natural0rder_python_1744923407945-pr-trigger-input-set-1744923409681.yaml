@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Natural0rder_python_1744923407945-pr-trigger-input-set
+  identifier: Build_Natural0rder_python_1744923407945prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Natural0rder_python_1744923407945
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
